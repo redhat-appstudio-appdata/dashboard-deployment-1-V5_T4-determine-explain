@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: dash-deployment-dashboard-deployment-juxo
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: dash-deployment-dashboard-deployment-juxo
+    app.kubernetes.io/part-of: dashboard-deployment-1
+  name: dash-deployment-dashboard-deployment-juxo
+spec:
+  ports:
+  - port: 8080
+    targetPort: 8080
+  selector:
+    app.kubernetes.io/instance: dash-deployment-dashboard-deployment-juxo
+status:
+  loadBalancer: {}
