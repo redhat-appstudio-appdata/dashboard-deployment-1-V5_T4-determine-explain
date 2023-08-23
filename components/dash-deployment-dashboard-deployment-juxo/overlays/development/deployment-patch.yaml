@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dash-deployment-dashboard-deployment-juxo
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-ee-atheodor-tenant/dashboard-deployment-1/dash-deployment-dashboard-deployment-juxo@sha256:b852ada072f89d1257913d2317e0c05b597ff48ef33889f7d488b904e5a8966f
+        name: container-image
+        resources: {}
+status: {}
