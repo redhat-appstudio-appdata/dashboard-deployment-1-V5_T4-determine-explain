@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dash-deployment-dashboard-deployment-juxo
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rh-ee-atheodor-tenant/dashboard-deployment-1/dash-deployment-dashboard-deployment-juxo@sha256:b852ada072f89d1257913d2317e0c05b597ff48ef33889f7d488b904e5a8966f
         imagePullPolicy: Always
         name: container-image
         ports:
