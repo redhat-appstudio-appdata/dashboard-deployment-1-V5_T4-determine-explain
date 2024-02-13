@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: dashboard-deployment-1
   name: dash-deployment-dashboard-deployment-juxo
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
